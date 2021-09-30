@@ -1,0 +1,35 @@
+main.container{height: 100vh;}
+
+@media (max-width: 767.98px) {
+main.container{height: auto; padding-top: 10vh; padding-bottom: 10vh;}
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+    font-size: 1.5625rem;
+}
+
+body p {
+    font-size: 1.125rem;
+}
+
+a {
+    color: black;
+    font-size: 1.5625rem;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+main h1 {
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+
+blockquote cite {
+    font-weight: bold;
+}
